@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23d082f3-2b10-455a-9fcc-162d1a2ea122" name="Changes" comment="Diagrama">
-      <change afterPath="$PROJECT_DIR$/documentos/novo-projeto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fiap/bankbenezinho/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fiap/bankbenezinho/banco/Agencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fiap/bankbenezinho/banco/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fiap/bankbenezinho/conta/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fiap/bankbenezinho/conta/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fiap/bankbenezinho/conta/ContaPoupanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fiap/bankbenezinho/pessoa/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fiap/bankbenezinho/pessoa/PessoaFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fiap/bankbenezinho/pessoa/PessoaJuridica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +46,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/fpnak/IdeaProjects/bank-of-benezinho",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,7 +62,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.fiap.bankbenezinho.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="bank-of-benezinho" />
@@ -59,8 +70,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.fiap.bankbenezinho.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fiap.bankbenezinho.Main" />
+      <module name="bank-of-benezinho" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fiap.bankbenezinho.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.fiap.bankbenezinho.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -75,6 +100,7 @@
       <updated>1684781075404</updated>
       <workItem from="1684781076401" duration="882000" />
       <workItem from="1684786312961" duration="2736000" />
+      <workItem from="1685145133059" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="Diagrama">
       <created>1684786592208</created>
